@@ -1,0 +1,23 @@
+{
+    "name": "@company/blog",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 3001",
+        "build": "next build",
+        "start": "next start -p 3001"
+    },
+    "dependencies": {
+        "@company/ui-core": "*",
+        "next": "^12.1.5",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.25",
+        "@types/react": "^18.0.5",
+        "@types/react-dom": "^18.0.1",
+        "next-transpile-modules": "^9.0.0",
+        "typescript": "^4.6.3"
+    }
+}

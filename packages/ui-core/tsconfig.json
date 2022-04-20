@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "composite": false,
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "inlineSources": false,
+        "isolatedModules": true,
+        "moduleResolution": "Node",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "preserveWatchOutput": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "lib": ["DOM", "ESNext"],
+        "module": "ESNext",
+        "target": "ES6",
+        "jsx": "react"
+    },
+    "include": ["."],
+    "exclude": ["dist", ".turbo", "node_modules"]
+}

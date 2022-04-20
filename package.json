@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "turbo run dev --no-cache --parallel --continue",
+        "build": "turbo run build"
+    },
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "devDependencies": {
+        "prettier": "^2.6.2",
+        "turbo": "^1.2.4"
+    }
+}
